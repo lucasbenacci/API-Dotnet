@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AgendaContext>(options =>
-    options.UseSqlServer("Server=localhost\\sqlexpress;Initial Catalog=Agenda; Integrated Security=True"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
