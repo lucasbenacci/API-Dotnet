@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\API-Dotnet\\API-Dotnet.csproj": {}
+    "C:\\Dev\\API-Dotnet\\API-Dotnet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\API-Dotnet\\API-Dotnet.csproj": {
+    "C:\\Dev\\API-Dotnet\\API-Dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\API-Dotnet\\API-Dotnet.csproj",
+        "projectUniqueName": "C:\\Dev\\API-Dotnet\\API-Dotnet.csproj",
         "projectName": "API-Dotnet",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\API-Dotnet\\API-Dotnet.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\API-Dotnet\\obj\\",
+        "projectPath": "C:\\Dev\\API-Dotnet\\API-Dotnet.csproj",
+        "packagesPath": "C:\\Users\\lucas.souza\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\API-Dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lucas.souza\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

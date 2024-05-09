@@ -26,5 +26,21 @@ namespace API_Dotnet.Controllers
             _context.SaveChanges();
             return Ok(contato);
         }
+
+        [HttpGet("{id}")]
+        public ActionResult ObterPorId(int id)
+        {
+            var contato = _context.Contato.Find(id);
+
+            if (contato == null)
+                return NotFound();
+            
+            return Ok(contato);
+        }
+
+        public IActionResult Atualizar(int id, Contato contato)
+        {
+            
+        }
     }
 }
