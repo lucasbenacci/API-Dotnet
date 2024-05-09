@@ -11,7 +11,7 @@ namespace API_Dotnet.Context
     {
         public AgendaContext(DbContextOptions<AgendaContext> options) : base(options)
         {
-
+            
         }
 
         public DbSet<Contato> Contato{ get; set;}

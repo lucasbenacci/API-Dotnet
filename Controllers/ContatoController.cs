@@ -19,6 +19,7 @@ namespace API_Dotnet.Controllers
             _context = context;
         }
 
+        //endpoint de create
         [HttpPost]
         public ActionResult Create(Contato contato)
         {
@@ -26,7 +27,7 @@ namespace API_Dotnet.Controllers
             _context.SaveChanges();
             return Ok(contato);
         }
-
+        //
         [HttpGet("{id}")]
         public ActionResult ObterPorId(int id)
         {
@@ -54,6 +55,18 @@ namespace API_Dotnet.Controllers
             _context.SaveChanges();
 
             return Ok(contatoBanco);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            var contatoBanco = _context.Contato.Find(id);
+            if (contatoBanco == null)
+                return NotFound();
+            
+            _context.Contato.Remove(contatoBanco);
+            _context.SaveChanges();
+            return NoContent();
         }
     }
 }
