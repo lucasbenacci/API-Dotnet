@@ -4484,7 +4484,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas.souza\\.nuget\\packages\\": {}
+    "C:\\Users\\adm_city\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4492,11 +4492,11 @@
       "projectUniqueName": "C:\\Dev\\API-Dotnet\\API-Dotnet.csproj",
       "projectName": "API-Dotnet",
       "projectPath": "C:\\Dev\\API-Dotnet\\API-Dotnet.csproj",
-      "packagesPath": "C:\\Users\\lucas.souza\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\adm_city\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\API-Dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lucas.souza\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\adm_city\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
